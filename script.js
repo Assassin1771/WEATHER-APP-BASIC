@@ -1,7 +1,7 @@
 function fun1() {
     var city = document.getElementById('search-input').value;
 
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=9aa78a808a34a56396a9b7120d845d5a')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=414eb8f299c98b13d0fa9f7b2667fc85')
         .then(response => response.json())
         .then(data => {
 
