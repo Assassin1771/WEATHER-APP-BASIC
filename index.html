@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>WEATHER APP</title>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <form id="search-form">
+        <input type="text" id="search-input" />
+
+        <br>
+        <button id="search-button" type='button' onclick='fun1()'>SEARCH</button>
+
+
+    </form>
+
+    <main id="app-container">
+        <div id="location">
+            <p>LOCATION</p>
+        </div>
+        <div id="temp">
+            <image id='temp-icon' src='./icons/clear.png' alt=''></image>
+            <p><span id='temp-maxx'>-----</span> <span id='temp-unit'>&#176c</span></p>
+        </div>
+
+        <div id='climate'>
+            <p>----</p>
+        </div>
+    </main>
+
+    <br>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+
+</html>
